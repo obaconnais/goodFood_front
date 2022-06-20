@@ -1,0 +1,85 @@
+#img{
+  height: auto;
+  width: 100%;
+  max-height: 100%;
+}
+
+#body{
+  background-color:white;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+#carousel{
+  order: 1;
+  width:60%;
+  min-width: 841px;
+}
+
+#search_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  order: 2;
+  width: 40%;
+  min-width: 440px;
+}
+
+#header{
+  font-size: 300%;
+  font-family:'Snell Roundhand', cursive;
+  font-weight: bold;
+  color: teal;
+  text-align: center;
+  margin-bottom: 6vh;
+  margin-top: -17vh;
+}
+
+#header, #header p {
+  white-space: nowrap;
+}
+
+#form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#postCode{
+  border: 1px solid #5e5e5e;
+}
+
+#country, #postCode{
+  width: 20vw;
+  height: 5vh;
+  border-radius: 10px;
+  padding: 0 15px;
+  margin: 1vh 0;
+  min-width: 200px;
+}
+
+#valid{
+  height: 5vh;
+  width: 9vw;
+  color:white;
+  border-radius: 50px;
+  font-size: 100%;
+  background: black;
+  text-decoration: none;
+  margin: 1vh 0;
+  min-width: 90px;
+}
+
+.title_boulet{
+  display: inline;
+  color:orange;
+  font-size: 80%;
+}
+
+.title_title{
+  display: inline;
+}

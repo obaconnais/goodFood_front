@@ -1,0 +1,57 @@
+.navbar {
+  background-color: black;
+  height: 10%;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+}
+
+.navbar-nav {
+  position: fixed;
+  left: 7%;
+}
+
+.signIn {
+  position: fixed;
+  left: 90%;
+  height: 5%;
+  width: 7%;
+  color: silver;
+  border-radius: 50px;
+  font-size: 100%;
+  background: none;
+  text-decoration: none;
+}
+
+#logo {
+  width: auto;
+  height: auto;
+}
+
+#dropdown {
+  background-color: teal;
+  border-color: teal;
+  color: white;
+}
+
+#restaurant {
+  color: teal;
+  background-color: white;
+}
+
+#cart {
+  color: white;
+  background-color: orange;
+}
+
+#cart:hover {
+  color: black;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 10%;
+}

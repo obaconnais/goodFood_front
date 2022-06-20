@@ -1,0 +1,52 @@
+.navbar{
+  background-color: black;
+  height: 100%;
+  color:silver;
+}
+
+#first_header{
+  font-size: 160%;
+}
+
+.list-unstyled{
+  position: relative;
+  top: 0%;
+  left: 15%;
+  color:silver;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container a{
+  color: inherit;
+  color: silver;
+  text-decoration: none;
+}
+
+#footer_one{
+  order: 1;
+}
+#footer_two{
+  order: 2;
+}
+#footer_three{
+  order: 3;
+}
+#footer_four{
+  order: 4;
+}
+#footer_five{
+  order: 5;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0px;
+  height:10%;
+  width: 100%;
+}

@@ -1,0 +1,41 @@
+<body class="body" >
+  <div class="container_img">
+    <img class="image" src="../assets/images/assiette_tomate.jpeg">
+  </div>
+  <div class="command">
+    <h4 class="header_command">
+      Your cart
+      <p *ngIf="test.length == 1" class="noRecipe_text">
+        is empty !
+      </p>
+    </h4>
+    <div class="noRecipe" [ngStyle]="{'background': 'url('+image+') no-repeat'}" *ngIf="test.length == 1">
+    </div>
+    <ul>
+      <li *ngFor="let recipe of keys">
+        <div class="container_product" *ngIf="recipes.get(recipe)">
+          <div class="number_liste">
+            <div class="buttonleft_container">
+              <button (click)="decrement(recipe)" class="buttonManage"> - </button>
+            </div>
+            <div class="textManage">{{recipes.get(recipe)?.nombre}}</div>
+            <div  class="buttonright_container">
+              <button (click)="increment(recipe)" class="buttonManage"> + </button>
+            </div>
+          </div>
+          <div class="recipe_name">{{recipe.name}}</div>
+          <div class="pagination">....................................................................</div>
+          <div class="recipe_price">{{recipe.price}} €</div>
+          <button (click)="delete(recipe)" class="button">delete</button>
+        </div>
+      </li>
+    </ul>
+    <div class="total_container">
+      <input placeholder="promo code" type="text" class="input">
+      <p class="total_text">
+        Total: {{Total}} €
+      </p>
+      <button class="total_button">Order now</button>
+    </div>
+  </div>
+</body>

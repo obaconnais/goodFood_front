@@ -1,0 +1,53 @@
+html {
+  color: white;
+}
+
+.main {
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 5vw;
+}
+
+.welcome_message {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frontext{
+  font-size: 30px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.company_name{
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.question{
+  font-weight: bold;
+  font-weight: inherit;
+  font-size: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:3vw;
+  width: 90%;
+  margin-bottom: 25vh;
+}
+
+nav a{
+  background: none;
+  font-size: 200%;
+  text-decoration: none;
+  color: inherit;
+}
