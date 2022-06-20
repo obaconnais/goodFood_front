@@ -31,7 +31,7 @@ jobs:
       with:
         images: ghcr.io/${{ github.repository }}
     - name: Build and push Docker images
-      if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/qualif' || github.ref == 'refs/heads/feature/github_actions'
+      if: github.ref == 'refs/heads/main'
       uses: docker/build-push-action@v2
       with:
         context: .
